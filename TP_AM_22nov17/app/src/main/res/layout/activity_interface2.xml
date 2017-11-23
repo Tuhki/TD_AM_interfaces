@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_columnWeight="10"
+    android:layout_rowWeight="12"
+    android:visibility="visible">
+
+    <TextView
+        android:id="@+id/i2_txtV_civil"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/i2_civil"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="5dp">
+
+        <RadioButton
+            android:id="@+id/i2_btn_mme"
+            android:layout_columnSpan="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i2_mme"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:id="@+id/i2_btn_mr"
+            android:layout_columnSpan="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i2_mr"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/i2_txtE_nom"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/i2_nom" />
+
+    <EditText
+        android:id="@+id/i2_txtE_prenom"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/i2_prénom"/>
+
+    <TextView
+        android:id="@+id/i2_txtV_dateN"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_columnSpan="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/i2_naissance"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/i2_txtE_jour"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/i2_jour"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/i2_txtE_mois"
+        android:layout_row="6"
+        android:layout_column="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/i2_mois"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/i2_txtE_an"
+        android:layout_row="6"
+        android:layout_column="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/i2_an"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/i2_txtE_mail"
+        android:layout_row="7"
+        android:layout_column="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/i2_mail"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/i2_txtE_adresse"
+        android:layout_row="8"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/i2_adresse"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/i2_txtE_comment"
+        android:layout_row="9"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/i2_commentaire"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/i2_btn_valider"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="12"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_marginBottom="15dp"
+        android:background="@color/bouton"
+        android:text="@string/i2_valider"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textColor="@color/police"/>
+
+</GridLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TP_AM_22nov17</string>
+
+    <!-- Pour interface 1 -->
+    <string name="i1_start">Start</string>
+
+    <!-- Pour interface 2 -->
+    <string name="i2_civil">Civilité</string>
+    <string name="i2_mr">Monsieur</string>
+    <string name="i2_mme">Madame</string>
+    <string name="i2_nom">Nom</string>
+    <string name="i2_prénom">Prénom</string>
+    <string name="i2_naissance">Date de naissance (en chiffres)</string>
+    <string name="i2_mail">Email</string>
+    <string name="i2_adresse">Adresse postale</string>
+    <string name="i2_commentaire">Ajouter un commentaire...</string>
+    <string name="i2_valider">Valider</string>
+    <string name="i2_jour">Jour (ex: 01)</string>
+    <string name="i2_mois">Mois (ex: 09)</string>
+    <string name="i2_an">Année (ex: 2006)</string>
+
+    <!-- Pour interface 3 -->
+    <string name="i3_sports">Sports</string>
+    <string name="i3_accueil">Accueil</string>
+
+</resources>
